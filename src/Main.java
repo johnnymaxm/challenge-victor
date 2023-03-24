@@ -22,13 +22,13 @@ public class Main {
 
         // Validação dos numeros
         System.out.println("Digite um numero ");
-        var userInput1 = scan.nextInt();
+        int userInput1 = scan.nextInt();
 
         System.out.println("Digite o segundo numero: ");
-        var userInput2 = scan.nextInt();
+        int userInput2 = scan.nextInt();
 
         System.out.println("Digite o terceiro numero: ");
-        var userInput3 = scan.nextInt();
+        int userInput3 = scan.nextInt();
 
         validacoesNum(userInput1, userInput2, userInput3);
 
